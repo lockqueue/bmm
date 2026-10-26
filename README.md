@@ -27,7 +27,7 @@ unchanged on a pointer machine.
 Our main technical result decomposes any pair of Boolean matrices into
 $\exp(O(d^2 / \varepsilon^2))$ pieces, each sparse or $(\varepsilon, 2,
 2d)$-grid-regular, for grid-norm parameter $d$ and regularity $\varepsilon$;
-this improves the $\exp(d^7 \operatorname{poly}(1/\varepsilon))$ bound of Abboud
+this improves the $\exp(d^7 \mathrm{poly}(1/\varepsilon))$ bound of Abboud
 et al. Four ideas drive the improvement: sifting at dyadic density scales,
 paying vertex loss only when the density jumps; a cheaper deterministic
 grid-norm estimator via an exact outer average and two-stage oblivious sampling;
