@@ -16,7 +16,7 @@ SHELL       := /bin/bash
 export PATH := $(HOME)/.elan/bin:$(PATH)
 LAKE        ?= lake
 PDFLATEX    ?= pdflatex
-PAPER_MD5   := 0f1591869b4096ffd6d44b984ef79960
+PAPER_MD5   := f3e6ff31cfeb9fedac85b3af9ef2f9db
 
 LEAN_FILES := \
 	BMMGrid.lean \
