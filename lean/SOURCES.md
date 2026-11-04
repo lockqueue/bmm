@@ -30,10 +30,10 @@ Section 3.3 Lemma 3.3 `\label{lem:two-stage-sampler}`,
 
     > **Lemma 4.4 (Oblivious Sampling [41]).** Let $X$ be a set and let $\delta,
     > \varepsilon > 0$. There is a deterministic algorithm computing, in time
-    > $|X| \cdot \operatorname{poly}(\varepsilon^{-1}, \delta^{-1}, \log |X|)$,
+    > $|X| \cdot \mathrm{poly}(\varepsilon^{-1}, \delta^{-1}, \log |X|)$,
     > a family $\mathcal{S}$ of subsets $S \subseteq X$ such that 1.
-    > $|\mathcal{S}| \le |X| \cdot \operatorname{poly}(\varepsilon^{-1},
-    > \delta^{-1})$, 2. $|S| \le \operatorname{poly}(\varepsilon^{-1},
+    > $|\mathcal{S}| \le |X| \cdot \mathrm{poly}(\varepsilon^{-1},
+    > \delta^{-1})$, 2. $|S| \le \mathrm{poly}(\varepsilon^{-1},
     > \delta^{-1})$ for all $S \in \mathcal{S}$, 3. For every function $f : X
     > \to [0, 1]$, $\Pr_{S \in \mathcal{S}}[\mathbb{E}_{x \in X} f(x) =
     > \mathbb{E}_{x \in S} f(x) \pm \varepsilon] \ge 1 - \delta$.
