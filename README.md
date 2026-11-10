@@ -1,5 +1,10 @@
 # Combinatorial Boolean Matrix Multiplication in $n^3 / 2^{\Omega(\sqrt{\log n})}$ Time
 
+This repository contains the full version of the paper and its Lean 4 formalization.
+A condensed version of the paper is available as
+[arXiv:2611.06717](https://arxiv.org/abs/2611.06717). The formalization follows the
+full version. `lean/FORMALIZATION.pdf` states its exact scope.
+
 ## Authors
 
 -   **Piaoyang Cui** (Google DeepMind)
@@ -61,8 +66,8 @@ Apache-2.0 licenses.
 ├── README.md                  # Overview, authors, abstract, and build instructions
 ├── LICENSE                    # Apache License 2.0 (covers lean/ and the Makefiles; not the paper)
 ├── Makefile                   # Top-level Makefile (Lean 4 build, docs, and verification)
-├── paper.tex                  # LaTeX source of the paper
-├── paper.pdf                  # Compiled PDF of the paper
+├── paper.tex                  # LaTeX source of the full paper
+├── paper.pdf                  # Compiled PDF of the full paper
 └── lean/                      # Machine-checked Lean 4 formalization (BMMGrid)
     ├── LICENSE                # Apache License 2.0 (copy)
     ├── Makefile               # Standalone Lake Makefile for building and auditing BMMGrid
